@@ -1,2 +1,4 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
+
+gulp.task('server');
