@@ -1,4 +1,7 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
-
-gulp.task('server');
+const minify = require('gulp-uglify');
+gulp.task('server',()=>{
+gulp.src(['...','....'])
+.pipe(minify());
+});
